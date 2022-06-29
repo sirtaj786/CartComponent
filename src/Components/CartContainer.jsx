@@ -45,7 +45,10 @@ const CartContainer = () => {
   }
  
      return (
-     <div>
+     <div style={{border:"2px solid tomato",
+     width:"50%",
+     margin:"auto"
+     }}>
          {
       data.map(item=><CartItem
       key={item.id}

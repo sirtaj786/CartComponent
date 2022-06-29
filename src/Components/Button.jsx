@@ -8,7 +8,7 @@ const Button = ({onClick,disabled,children}) => {
             border:0,
             borderWidth:0,
             fontWeight:"bold",
-            backgroundColor:"teal",
+            backgroundColor:"tomato",
             color:"white"
         }} disabled={disabled} onClick={onClick}>{children}</button>
     </div>

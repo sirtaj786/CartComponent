@@ -9,13 +9,13 @@ const CartItem = ({id,label,price,qty, handleChangeQty}) => {
       display:"flex",
       gap:"1rem",
       padding:"2rem",
-      marginTop:"2rem",
+      marginTop:"30px",
       justifyContent:"center",
       alignItems:"center",
-    backgroundColor:"tomato",
+   // backgroundColor:"tomato",
       width:"40%",
       margin:"auto",
-      boxShadow:"rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;"
+      border:"2px solid tomato"
     }}>
       
         <LabelPrice label={label}
